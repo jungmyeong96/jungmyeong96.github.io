@@ -1,0 +1,354 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Jungmyeong Han | A Backend Engineer based in Seoul, South Korea.
+  </title>
+
+  <meta name="description" content="백엔드 개발자 한중명의 포트폴리오 입니다.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="한중명, 백엔드, Java, Spring boot, Typescript, Node.js" />
+  <style>
+    video { max-width: 100%; display: block; margin-bottom: 10%; }
+  </style>
+  <link rel="stylesheet" href="index.css" />
+
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Jungmyeong Han</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>A Backend Engineer based in Seoul, South Korea.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              제 포트폴리오를 방문해주셔서 감사합니다. 🤗
+              <br/>  저는 백엔드 개발자로서 다양한 프로젝트를 수행하면서 데이터베이스 설계와 관리, API 개발, 서버 구축 및 관리 등의 업무를 수행해왔습니다.
+              <br/> 안정적이고 확장 가능한 서비스를 제공하기 위해 끊임없이 기술을 학습하고, 프로젝트 수행 중 언제든지 의견을 나누며, 다른 개발자와의 소통과 협업을 중요시 여깁니다.
+              <br/>  이를 통해 프로젝트를 높은 수준으로 완수할 수 있었고 앞으로도 저는 제 역량과 열정을 바탕으로 참여할 모든 프로젝트에 최선을 다해 기여하겠습니다. 
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/Profile.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          
+          <div class="work__box">
+            <div class="work__text">
+              <h3>[BE] 42Dashboard Service </h3>
+              <P>
+                42 Dashboard Service는 42SEOUL학생 데이터를 손쉽게 관리하고 시각화할 수 있는 서비스입니다.
+                <br/>이노베이션 아카데미 측의 요청에 따라 엑셀로 관리하던 기존의 레거시 시스템을 DB로 마이그레이션하고, 사용자가 원하는 데이터의 조합을 통해 다양한 종류의 차트를 지원하는 기능을 구현하였습니다.
+              </p>
+
+              <b> 기술스택 </b>
+
+              <ul class="work__list">
+                <li>Typescript</li>
+                <li>NestJS</li>
+                <li>GraphGL</li>
+                <li>PostgreSQL</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/innovationacademy-kr/42dashboard">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+                <a href="./images/Dashboard42.pptx">
+                  <img src="./images/ppt.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-slidebox">
+
+              <ul class="imgslide">
+                <li>
+                  <video muted autoplay loop>
+                    <source src="./videos/Dashboard.mp4" type="video/mp4">
+                    <strong>Your browser does not support the video tag.</strong>
+                  </video>
+                </li>
+                <li>
+                  <img
+                    class="work__image"
+                    src="./images/DashboardPresentation.jpeg"
+                    alt="슬라이드"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3> [BE] Show My Cnft </h3>
+              <p>
+                본인의 지갑을 연결하여 NFT를 목록을 보여주고 게시하는 사이트를 현재 개발중입니다.
+              </p>
+              <ul class="work__list">
+                <li>JAVA</li>
+                <li>Spring boot</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/jungmyeong96/ShowMyCNFT">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/ class="work__image" alt="Board" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>[FE] Online Web Pingpong Game </h3>
+              <p>
+                실시간으로 채팅 및 탁구게임을 할 수 있는 사이트입니다.
+                <ul class="work__list">
+                  <li> 실시간 채팅 구현 </li>
+                  <li> 비밀, 공개, 보호 채팅방 기능 </li>
+                  <li> 유저 매칭 탁구 게임 </li>
+                  <li> 게임 이력 관리 및 랭킹시스템 </li>
+                  <li> 친구, 게임 알람 기능 등..</li>
+                </ul>
+              </p>
+
+
+              <b> 기술스택 </b>
+
+              <ul class="work__list">
+                <li>React</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Typescript</li>
+                <li>Socket.io</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/Dream-Transcendence/ft_transcendence">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>    
+              </div>
+            </div>
+            <div class="work__image-slidebox">
+              <ul class="imgslide">
+                <li>
+                  <img
+                    class="work__image"
+                    src="./images/PingpongChating.png"
+                    alt="슬라이드"
+                  />
+                </li>
+                <li>
+                  <img
+                    class="work__image"
+                    src="./images/pingpongGameover.png"
+                    alt="슬라이드"
+                  />
+                </li>
+                <li>
+                  <img
+                    class="work__image"
+                    src="./images/PingpongProfile.png"
+                    alt="슬라이드"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>[GAME] Raycasting 3D GAME</h3>
+              <p>
+                스크린에 랜더링을 할 수 있게 도와주는 라이브러리인 MLX와  2차원 및 3차원 그래픽스 표준 API 규격인 OpenGL을 사용하여 그래픽을 작업하고 C언어를 기반으로 starcraft를 모티브로한 Raycasting 3D게임을 개발하였습니다.
+              </p>
+
+              <b> 기술스택 </b>
+
+              <ul class="work__list">
+                <li>C lang</li>
+                <li>MLX</li>
+                <li>OpenGL</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/jungmyeong96/42high/tree/master/cub3d">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub"> 
+                </a>
+              </div>
+            </div>
+            <div class="work__image-slidebox">
+              <ul class="imgslide">
+                <li>
+                  <img
+                    class="work__image"
+                    src="./images/GAME_3D1.png"
+                    alt="슬라이드"
+                  />
+                </li>
+                <li>
+                  <img
+                    class="work__image"
+                    src="./images/GAME_3D2.png"
+                    alt="슬라이드"
+                  />
+                </li>
+                <li>
+                  <img
+                    class="work__image"
+                    src="./images/GAME_3D3.png"
+                    alt="슬라이드"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Certificates and Awards</h2>
+        <ul class="work__list">
+          <li> COSEOULDAM 해커톤 대회 최우수상(1등) - 2022.12.15</li>
+          <li> 42SEOUL 공통 과정 돌파 - 2022.11.22</li>
+          <li> SQLD 자격증 - 2023.04.14</li>
+          <li> 환경기능사 - 2016.09.23 </li>
+        </ul>
+      </div>
+    </section>
+
+    
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          저는 백엔드 개발자로서, 건물의 토대와 같은 역할을 하고자 합니다.
+          트래픽을 견뎌내는 세심한 구조와 안정성을 지향하며, 
+          이를 위해 끊임없이 기술적으로 성장하고 발전하는 것이 저의 목표입니다.
+          <br/>
+          프로젝트나 경험에 대해 궁금한 점이 있으시다면 언제든지 메일로 문의해주세요.
+          
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:gkswndaud@gmail.com" class="btn">gkswndaud@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/jungmyeong96" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
