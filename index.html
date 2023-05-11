@@ -80,13 +80,24 @@
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
             <p>
-              제 포트폴리오를 방문해주셔서 감사합니다. 🤗
-              <br/>  저는 백엔드 개발자로서 다양한 프로젝트를 수행하면서 데이터베이스 설계와 관리, API 개발, 서버 구축 및 관리 등의 업무를 수행해왔습니다.
+              
+              <h4 style= "font-size:20px;">안녕하세요! 저는 신입 백엔드 개발자 한중명입니다.</h4>
+              <br/>  다양한 프로젝트를 수행하면서 데이터베이스 설계와 관리, API 개발, 서버 구축 및 관리 등의 업무를 수행해왔습니다.
               <br/> 안정적이고 확장 가능한 서비스를 제공하기 위해 끊임없이 기술을 학습하고, 프로젝트 수행 중 언제든지 의견을 나누며, 다른 개발자와의 소통과 협업을 중요시 여깁니다.
               <br/>  이를 통해 프로젝트를 높은 수준으로 완수할 수 있었고 앞으로도 저는 제 역량과 열정을 바탕으로 참여할 모든 프로젝트에 최선을 다해 기여하겠습니다. 
             </p>
             <!-- Provide a link to your resume -->
+            <div class="link__box">
             <a href="#" class="btn">My Resume</a>
+
+            <a href="https://github.com/jungmyeong96" title="Link to Github Profile">
+              <img src="./images/github.svg" class="footer__social-image" alt="Github">
+            </a>
+
+            <a href="https://velog.io/@jungmyeong96/series" title="Link to Github Profile">
+              <img src="./images/velog.png" class="footer__social-image" alt="Github">
+            </a>
+          </div>
           </div>
 
           <div class="about__photo-container">
@@ -94,6 +105,46 @@
             <img class="about__photo" src="./images/Profile.jpeg" alt="" />
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- ***** Skills ***** -->
+
+    <section class="skills" id="skills">
+      <div class="row">
+        <h2>Skills</h2>
+        <h3> Backend </h3>
+        <ul class="work__list">
+          <li> JAVA, Typescript</li>
+          <li> Spring Boot, Spring MVC, Spring Data JPA</li>
+          <li> NestJS </li>
+          <li> Junit </li>
+          <li> Gradle </li>
+          <li> IntelliJ, Eclipse, Visual Studio Code, Vim </li>
+          <li> Git </li>
+        </ul>
+
+        <h3> DevOps </h3>
+        <ul class="work__list">
+          <li> AWS EC2, AWS S3, Route 53 </li>
+          <li> MySQL, MariaDB, PostgreSQL </li>
+          <li> Nginx </li>
+        </ul>
+
+        <h3> Frontend </h3>
+        <ul class="work__list">
+          <li> HTML5, CSS3, JS(ES6) </li>
+          <li> React </li>
+          <li> Recoil </li>
+          <li> Typescript </li>
+        </ul>
+
+        <h3> Collaboration </h3>
+        <ul class="work__list">
+          <li> Slack </li>
+          <li> Notion </li>
+        </ul>
+
       </div>
     </section>
 
@@ -106,14 +157,41 @@
 
           <!-- Each div with the work__box class is a project. -->
 
-          
+          <h3>[BE] 42Dashboard Service </h3>
           <div class="work__box">
             <div class="work__text">
-              <h3>[BE] 42Dashboard Service </h3>
               <P>
                 42 Dashboard Service는 42SEOUL학생 데이터를 손쉽게 관리하고 시각화할 수 있는 서비스입니다.
                 <br/>이노베이션 아카데미 측의 요청에 따라 엑셀로 관리하던 기존의 레거시 시스템을 DB로 마이그레이션하고, 사용자가 원하는 데이터의 조합을 통해 다양한 종류의 차트를 지원하는 기능을 구현하였습니다.
               </p>
+
+              <b> 전담업무 </b>
+              <ul class="work__list">
+                <li> 프로젝트 총괄 및 클라이언트 요구사항 확인 </li>
+                <li> 
+                  <a href="https://github.com/innovationacademy-kr/42dashboard/issues/22"> ERD Cloud를 이용해 User를 중심으로 DB 설계 </a>
+                </li>
+                <li> 
+                  <a href="https://github.com/innovationacademy-kr/42dashboard/issues/50"> Diagram을 활용한 소프트웨어 아키텍쳐설계 시각화 </a>
+                </li>
+                <li> 빠른 환경구성을 위한 백업 dump 파일 (.sql) 및 목업 데이터 생성 </li>
+                <li>
+                   <a href="https://github.com/innovationacademy-kr/42dashboard/issues/268"> GoogleAPI를 활용하여 스프레드시트 데이터 추출 </a>
+                </li>
+                <li>
+                  <a href="https://github.com/innovationacademy-kr/42dashboard/issues?q=is%3Aissue+is%3Aclosed+%EA%B5%AC%EA%B8%80+%EC%8A%A4%ED%94%84%EB%A0%88%EB%93%9C+*+%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0"> 2000명의 학생 데이터를 DB로 업데이트 요청하는 API 구현</a>
+                </li>
+                <li> <a href="https://github.com/innovationacademy-kr/42dashboard/issues/248"> 컬럼별 도메인의 종류를 응답하는 API 구현
+                </a>
+                <li>
+                  <a href="https://github.com/innovationacademy-kr/42dashboard/issues/182"> cron을 활용하여 업데이트 자동화 배치 시스템 구현 </a>
+                </li>
+
+               </li>
+
+                
+                
+              </ul>
 
               <b> 기술스택 </b>
 
@@ -162,12 +240,32 @@
             </div>
           </div>
 
+          <h3> [BE] Show My Cnft </h3>
           <div class="work__box">
             <div class="work__text">
-              <h3> [BE] Show My Cnft </h3>
               <p>
                 본인의 지갑을 연결하여 NFT를 목록을 보여주고 게시하는 사이트를 현재 개발중입니다.
               </p>
+              <b> 아키텍쳐 설계 </b>
+              <ul class="work__list">
+                <li> MVC 패턴을 적용한 3Tier 구조</li>
+                <li> Spring Boot를 사용하여 RESTful API 개발 </li>
+                <li> H2 데이터베이스를 사용하여 데이터 저장 </li>
+                <li> Spring Data JPA를 사용하여 데이터베이스에 매핑 </li>
+                <li> JSP를 통한 뷰 구현</li>
+                <li> JUnit을 통한 단위테스트 </li>
+
+              </ul> 
+
+              <b> 기능구현 </b>
+
+              <ul class="work__list">
+                <li> 게시물 CRUD API 구현 </li>
+                <li> SSO 인증 로그인 구현 </li>
+              </ul>
+
+              <b> 기술스택 </b>
+
               <ul class="work__list">
                 <li>JAVA</li>
                 <li>Spring boot</li>
@@ -180,6 +278,12 @@
                 <a href="https://github.com/jungmyeong96/ShowMyCNFT">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
+
+                <a href="https://velog.io/@jungmyeong96/series/SpringBootProject">
+                  <img src="./images/velog.png" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+
+                
               </div>
             </div>
             <div class="work__image-box">
@@ -187,19 +291,37 @@
             </div>
           </div>
 
+          <h3>[FE] Online Web Pingpong Game </h3>
           <div class="work__box">
             <div class="work__text">
-              <h3>[FE] Online Web Pingpong Game </h3>
               <p>
-                실시간으로 채팅 및 탁구게임을 할 수 있는 사이트입니다.
-                <ul class="work__list">
-                  <li> 실시간 채팅 구현 </li>
-                  <li> 비밀, 공개, 보호 채팅방 기능 </li>
-                  <li> 유저 매칭 탁구 게임 </li>
-                  <li> 게임 이력 관리 및 랭킹시스템 </li>
-                  <li> 친구, 게임 알람 기능 등..</li>
-                </ul>
+                웹 상에서 실시간으로 채팅방을 개설하여 채팅하거나 매칭시스템을 통하여 탁구게임을 할 수 있는 웹사이트 기반 
+                플레이그라운드 입니다.
               </p>
+                
+
+                <b> 전담업무 </b>
+                <ul class="work__list">
+                  <li> <a href="https://github.com/Dream-Transcendence/ft_transcendence/issues/4">커밋 템플릿, 룰 자동화</a> </li>
+                  <li> <a href="https://www.figma.com/file/WkooJZl7A7fwPNrPwAy65h/transcendence-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%94%94%EC%9E%90%EC%9D%B8-v-1.0?type=design&node-id=5403%3A69549&t=JiclUJ9T2sCX96N2-1">Figma를 이용한 User를 중심으로 DB 설계
+                  </a> </li>
+                  <li> <a href="https://github.com/Dream-Transcendence/ft_transcendence/issues?page=2&q=is%3Aissue+is%3Aclosed+assignee%3Ajungmyeong96">Socket.io를 이용하여 유저 간 초대, 채팅방생성, 채팅 등 구현  </a>
+                  </li>
+                  <li> <a href="https://github.com/Dream-Transcendence/ft_transcendence/issues?q=is%3Aissue+is%3Aclosed+assignee%3Ajungmyeong96+%EA%B2%8C%EC%9E%84"> Socket.io를 통해 사용자가 조작하는 막대기와 공의 실시간 좌표를 전달받아 랜더링  </a>
+                  </li>
+                  <li> <a href="https://github.com/Dream-Transcendence/ft_transcendence/pull/209">
+                    옵저버를 활용하여 채팅 히스토리 무한스크롤링 구현
+                  </a></li>
+                  <li> <a href="https://github.com/Dream-Transcendence/ft_transcendence/issues/178">optimistic UI 적용을 통해 유저의 변화된 상태 실시간 반영
+                  </a>
+                  </li>
+                  <li> <a href="https://github.com/Dream-Transcendence/ft_transcendence/pull/214"> 프론트 로그인 페이지 구현 및 연결 </a> 
+                  </li>
+                  
+                  
+                </ul>
+
+              
 
 
               <b> 기술스택 </b>
@@ -209,13 +331,18 @@
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Typescript</li>
+                <li>Recoil</li>
                 <li>Socket.io</li>
               </ul>
 
               <div class="work__links">
                 <a href="https://github.com/Dream-Transcendence/ft_transcendence">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>    
+                </a>
+                <a href="https://skitter-friction-a0c.notion.site/Web-Pingpong-Game-and-Chat-b138169e1a81473699ea0ec652d990d3">
+                  <img src="./images/Notion.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+    
               </div>
             </div>
             <div class="work__image-slidebox">
@@ -245,13 +372,38 @@
             </div>
           </div>
 
+          <h3>[GAME] Raycasting 3D GAME</h3>
           <div class="work__box">
             <div class="work__text">
-              <h3>[GAME] Raycasting 3D GAME</h3>
               <p>
                 스크린에 랜더링을 할 수 있게 도와주는 라이브러리인 MLX와  2차원 및 3차원 그래픽스 표준 API 규격인 OpenGL을 사용하여 그래픽을 작업하고 C언어를 기반으로 starcraft를 모티브로한 Raycasting 3D게임을 개발하였습니다.
               </p>
 
+              <ul class="work__list">
+                <li> 
+                  <a href="https://skitter-friction-a0c.notion.site/5-0a67e425782c49ab939eb74e53d6ff1f">
+                    Raycasting 학습 정리 및 구현설계
+                  </a></li>
+                  <li> 
+                    <a href="https://skitter-friction-a0c.notion.site/2-MLX-6a3e7f4b453547b983be12fbd313797f">
+                      MLX 다뤄보기
+                    </a></li>
+              </ul>
+
+
+              <b> 구현기능 </b>
+
+              <ul class="work__list">
+                <li> 기본 이동 WASD </li>
+                <li> 마우스 스크롤 시선 이동</li>
+                <li> 마우스 클릭을 통한 사격/장전 </li>
+                <li> 배경음악 삽입 </li>
+                <li> 위치 기반 미니맵 </li>
+                <li> 아이템, 적 움직이는 스프라이트 구현 </li>
+                <li> 체력바 구현 </li>
+                <li> 동적 HUD 구현 </li>
+                
+                <br/>
               <b> 기술스택 </b>
 
               <ul class="work__list">
@@ -303,8 +455,8 @@
       <div class="row">
         <h2>Certificates and Awards</h2>
         <ul class="work__list">
-          <li> COSEOULDAM 해커톤 대회 최우수상(1등) - 2022.12.15</li>
           <li> 42SEOUL 공통 과정 돌파 - 2022.11.22</li>
+          <li> COSEOULDAM 해커톤 대회 최우수상(1등) - 2022.12.15</li>
           <li> SQLD 자격증 - 2023.04.14</li>
           <li> 환경기능사 - 2016.09.23 </li>
         </ul>
