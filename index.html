@@ -46,7 +46,7 @@
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item"><a href="#Experience" class="nav__link">Experience</a></li>
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
@@ -64,7 +64,6 @@
         </h1>
         <!-- Put a small paragraph about yourself -->
         <p>A Backend Engineer based in Seoul, South Korea.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
   </header>
@@ -88,7 +87,8 @@
             </p>
             <!-- Provide a link to your resume -->
             <div class="link__box">
-            <a href="#" class="btn">My Resume</a>
+              <!-- <a href="#contact" class="btn btn--pink">Get in touch</a> -->
+            <a href="#contact" class="btn">Get in touch</a>
 
             <a href="https://github.com/jungmyeong96" title="Link to Github Profile">
               <img src="./images/github.svg" class="footer__social-image" alt="Github">
@@ -115,7 +115,7 @@
         <h2>Skills</h2>
         <h3> Backend </h3>
         <ul class="work__list">
-          <li> JAVA, Typescript</li>
+          <li> C, C++, Typescript, JAVA, Python</li>
           <li> Spring Boot, Spring MVC, Spring Data JPA</li>
           <li> NestJS </li>
           <li> Junit </li>
@@ -148,6 +148,85 @@
       </div>
     </section>
 
+    <!-- ***** Education & Experience ***** -->
+
+    <section class="Experience" id="Experience">
+      <div class="row">
+      <h2>Education & Experience</h2>
+      <div class="container">
+        <div class="timeline">
+          <br />
+          <br />
+          <ul>
+            <li>
+              <div class="timeline-content">
+                <h3 class="date">2020-11-20 ~ 2022.11.22</h3>
+                <h1> 42SEOUL 공통과정돌파  </h1>
+                <p>
+                  피어리뷰: 140+ 회
+                  <br/>
+                  과제: 13+ 개
+                  <br/>
+                  웹 프로젝트: 3+ 회
+                  <br/>
+                  기타 팀 프로젝트: 3+ 회
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h3 class="date">2021-03-01 ~ 2023-08-26</h3>
+                <h1>4년제 학사 IT학부 편입</h1>
+                <p>
+                  전공과: 소프트웨어공학과
+                  <br/>
+                  학점: 4.21/4.5 
+                  <br/>
+                  장학사항: 2022/1학기 성적우수(학과1위)
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h3 class="date">2022-8-10</h3>
+                <h1>프로젝트 성과 발표회</h1>
+                <p>
+                  수요지식회를 통해 42SEOUL학생들의 데이터를 추출하여 시각화해주는 대시보드 프로젝트를 스피커로서 설명하고 시연하였습니다.
+                  <br/>
+                  직책: 팀장
+                  <br/>
+                  청강 인원: 50+ 명
+                  
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h3 class="date">2022-12-12 ~ 2022-12-14</h3>
+                <h1>해외 교류 해커톤 대회 1위</h1>
+                <p>
+                  전세계 기업, 학교 등 다양하게 참가하는 CodinGame의 2022 Fall Chanllenge에서 네덜란드 42CODAM와 한국 42SEOUL의 교류를 통한 국제팀을 결성하여 해커톤 3일 간   "최종순위 36th/2,333" 및 "42기관 내 1위" 라는 우수한 성적을 거뒀습니다. 
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    <h3>Others..</h3>
+
+
+    ▫️ JAVA Design Pattern Study 2023-02-02 ~ 2023-03-14
+    <br/>
+    ▫️ AWS Study 2023-01-27 ~ 2023-04-10
+    <br/>
+    ▫️ 42SEOUL Outercircle 2022-11-22 ~ 진행중
+    <br/>
+
+    </div>
+    </section>
+
+
     <!-- ***** Work ***** -->
 
     <section class="work" id="work">
@@ -167,14 +246,13 @@
 
               <b> 전담업무 </b>
               <ul class="work__list">
-                <li> 프로젝트 총괄 및 클라이언트 요구사항 확인 </li>
+                <li> 팀장으로 역할으로서 프로젝트 총괄하고 클라이언트의 요구사항 확인 </li>
                 <li> 
                   <a href="https://github.com/innovationacademy-kr/42dashboard/issues/22"> ERD Cloud를 이용해 User를 중심으로 DB 설계 </a>
                 </li>
                 <li> 
                   <a href="https://github.com/innovationacademy-kr/42dashboard/issues/50"> Diagram을 활용한 소프트웨어 아키텍쳐설계 시각화 </a>
                 </li>
-                <li> 빠른 환경구성을 위한 백업 dump 파일 (.sql) 및 목업 데이터 생성 </li>
                 <li>
                    <a href="https://github.com/innovationacademy-kr/42dashboard/issues/268"> GoogleAPI를 활용하여 스프레드시트 데이터 추출 </a>
                 </li>
@@ -183,11 +261,12 @@
                 </li>
                 <li> <a href="https://github.com/innovationacademy-kr/42dashboard/issues/248"> 컬럼별 도메인의 종류를 응답하는 API 구현
                 </a>
+                </li>
                 <li>
                   <a href="https://github.com/innovationacademy-kr/42dashboard/issues/182"> cron을 활용하여 업데이트 자동화 배치 시스템 구현 </a>
                 </li>
-
-               </li>
+                <li> 빠른 환경구성을 위한 백업 dump 파일 (.sql) 및 목업 데이터 생성 </li>
+               
 
                 
                 
@@ -455,13 +534,14 @@
       <div class="row">
         <h2>Certificates and Awards</h2>
         <ul class="work__list">
-          <li> 42SEOUL 공통 과정 돌파 - 2022.11.22</li>
           <li> COSEOULDAM 해커톤 대회 최우수상(1등) - 2022.12.15</li>
           <li> SQLD 자격증 - 2023.04.14</li>
           <li> 환경기능사 - 2016.09.23 </li>
         </ul>
       </div>
     </section>
+
+  
 
     
   </main>
